@@ -53,8 +53,8 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://cdn.baidu2022.com/2025/07/24/68813168863c7.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "摆渡",
+	avatar: "https://cdn.yn65.com/transfer/1758004348839-4756fd9f9c00d03c.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Baiduxc",
 	bio: "世间所有的相遇都是久别的重逢.",
 	links: [
 		{
@@ -66,13 +66,18 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "mail",
-			icon: "ic:baseline-attach-email",
+			icon: "fa6-brands:google",
 			url: "mailto:xcljxf@gmail.com",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/baiduxc",
+		},
+		{
+			name: "PayPal",
+			icon: "fa6-brands:cc-paypal",
+			url: "https://www.paypal.com/paypalme/yn65",
 		},
 	],
 };
