@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "摆渡博客",
-	subtitle: "认真生活和写作的博主",
+	subtitle: "心如花木，向阳而生",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 360, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: false,
-		src: "https://api.8yun.cc/api/img", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "https://cdn.baidu2022.com/backimg/26.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -54,8 +54,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://cdn.yn65.com/transfer/1758004348839-4756fd9f9c00d03c.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Baiduxc",
-	bio: "世间所有的相遇都是久别的重逢.",
+	name: "晨平安",
+	bio: "岁岁平，岁岁安，岁岁平安",
 	links: [
 		{
 			name: "QQ",
