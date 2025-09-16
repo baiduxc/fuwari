@@ -12,12 +12,12 @@ export const siteConfig: SiteConfig = {
 	subtitle: "认真生活和写作的博主",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 345, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+		hue: 360, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
 		enable: false,
-		src: "https://api.8yun.cc/api/img", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
@@ -65,9 +65,9 @@ export const profileConfig: ProfileConfig = {
 			url: "http://res.abeim.cn/api/qq/?qq=515236498",
 		},
 		{
-			name: "bilibili",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/348720206",
+			name: "mail",
+			icon: "fa6-brands:google",
+			url: "mailto:xcljxf@gmail.com",
 		},
 		{
 			name: "GitHub",
