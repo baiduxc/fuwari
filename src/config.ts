@@ -66,7 +66,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "mail",
-			icon: "fa6-brands:google",
+			icon: "ic:baseline-attach-email",
 			url: "mailto:xcljxf@gmail.com",
 		},
 		{
